@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="public/css/style.css" type="text/css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-    <script type="text/javascript" src="public/js/home.js"></script>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chilanka">
     <title>Home Page</title>
     <style>
         body {
@@ -20,26 +20,20 @@
 </head>
 
 <body>
+    <header>
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="tunnel.html">Tunnel</a></li>
+            <li><a href="sewer.html">Sewer</a></li>
+            <li><a href="softner.html">Water Softner</a></li>
+            <li><a href="h20heater.html">Water Heater</a></li>
+        </ul>
+    </header>
+    <div class="container">
 
-    <ul class="topnav">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="tunnel.html">Tunnel</a></li>
-        <li><a href="sewer.html">Sewer</a></li>
-        <li><a href="softner.html">Water Softner</a></li>
-        <li><a href="h20heater.html">Water Heater</a></li>
-    </ul>
-
-    <div class="row">
-        <div class="column">
-            <h2>Best plumbers in the city</h2>
-            <br>
-            <img src="public/assets/plumber.jpg" alt="plumber poster" width="300" height="400" id="plumbImg">
-        </div>
-        <div class="column">
-            <h2>Best customer service</h2>
-            <br>
-            <img src="public/assets/plumbposter.jpg" alt="plumbing poster 2" width="300" height="400" id="plumbImg">
-        </div>
+        <h2>Best plumbers in the city</h2>
+        <br>
+        <img src="public/assets/plumber.jpg" alt="plumber poster" width="400" height="500" id="plumbImg">
     </div>
 
 </body>
