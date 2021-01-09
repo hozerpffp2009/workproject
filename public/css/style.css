@@ -7,8 +7,28 @@ body {
     flex-wrap: wrap;
 }
 
+#plumbImg {
+width: 50%;
+height: 50%;
+margin-left: 25%;
+}
+
 .container {
     margin-top: 50px;
+}
+
+.carouselContainer{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.search{
+    float: right;
+    margin-top: 2%;
+}
+
+.tunnelPic{
+    margin-left: 25%;
 }
 
 ul.topnav {
@@ -17,6 +37,8 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: relative;
+    width: 100%;
 }
 
 ul.topnav li {
@@ -45,6 +67,10 @@ ul.topnav li.right {
 
 h1 {
     text-align: center;
+}
+
+footer{
+    margin-left: 25%;
 }
 
 p {
@@ -102,10 +128,18 @@ p {
     animation-duration: 1.5s;
 }
 
-h2 {
+#password{
     color: white;
-    font-size: 30px;
-    font-family: "Chilanka";
+}
+
+#email{
+    color: white;
+}
+
+#plumbTitle{
+    color: white;
+    font-weight: bolder;
+    font-style: italic;text-align: center;
 }
 
 #plumbImg {
